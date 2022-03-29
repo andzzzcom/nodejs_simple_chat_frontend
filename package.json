@@ -1,0 +1,41 @@
+{
+  "name": "frontend_chatify_nodejs",
+  "version": "1.0.0",
+  "description": "frontend_chatify_nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/andreashworks/frontend_chatify_nodejs.git"
+  },
+  "author": "Andreas Hermawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/andreashworks/frontend_chatify_nodejs/issues"
+  },
+  "homepage": "https://gitlab.com/andreashworks/frontend_chatify_nodejs#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "html": "^1.0.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "nunjucks": "^3.2.3",
+    "qs": "^6.10.3",
+    "socket.io": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2"
+  }
+}
